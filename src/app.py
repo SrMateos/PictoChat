@@ -30,28 +30,31 @@ def guardar_respuestas():
 
 @app.route('/generar_informe', methods=['POST'])
 def generar_informe():
-    with open('informe.json', 'r') as file:
-        informe = json.load(file)
+    try:
+        with open('informe.json', 'r') as file:
+            informe = json.load(file)
 
-    preguntas_con_respuesta = []
-    for bloque in informe:
-        pregunta = bloque["pregunta"][0]  # Obtener la pregunta (suponiendo que siempre es una lista con un solo elemento)
-        respuestas = bloque["respuestas"]
-    
-        # Iterar sobre las respuestas para encontrar la respuesta elegida
-        for respuesta in respuestas:
-            if respuesta["elegida"]:
-                # Si la respuesta está marcada como elegida, agregar la pregunta y la respuesta al resultado
-                pregunta_con_respuesta = {
-                    "pregunta": pregunta,
-                    "respuesta_elegida": respuesta["texto"]
-                }
-                preguntas_con_respuesta.append(pregunta_con_respuesta)
+        preguntas_con_respuesta = []
+        for bloque in informe:
+            pregunta = bloque["pregunta"][0]  # Obtener la pregunta (suponiendo que siempre es una lista con un solo elemento)
+            respuestas = bloque["respuestas"]
+        
+            # Iterar sobre las respuestas para encontrar la respuesta elegida
+            for respuesta in respuestas:
+                if respuesta["elegida"]:
+                    # Si la respuesta está marcada como elegida, agregar la pregunta y la respuesta al resultado
+                    pregunta_con_respuesta = {
+                        "pregunta": pregunta,
+                        "respuesta_elegida": respuesta["texto"]
+                    }
+                    preguntas_con_respuesta.append(pregunta_con_respuesta)
 
-    for pregunta_con_respuesta in preguntas_con_respuesta:
-        print(pregunta_con_respuesta)
+        for pregunta_con_respuesta in preguntas_con_respuesta:
+            print(pregunta_con_respuesta)
 
-    return render_template('informe.html', preguntas_con_respuesta = preguntas_con_respuesta)
+        return render_template('informe.html', preguntas_con_respuesta = preguntas_con_respuesta)
+    except:
+        return render_template('informe.html', preguntas_con_respuesta = [])
 
 @app.route('/procesar', methods=['POST'])
 def procesar():

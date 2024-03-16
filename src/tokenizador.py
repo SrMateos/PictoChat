@@ -25,17 +25,17 @@ patrones_zonas_cuerpo = {
 }
 
 patrones_dolencias = { 
-    "dolor": r'\b(dolor|dolores|duele|molestia|molestias|calambre|calambres|molesta)\b',
+    "dolor": r'\b(dolor|dolores|duele|dolido|molestia|molestias|molestado|calambre|calambres|molesta)\b',
     "hinchazón": r'\b(hinchazón|hinchazones|hinchado)\b',
     "sangrado": r'\b(sangrado|sangrados|sangra|sangran)\b',
-    "picor": r'\b(picor|picor|pican|pica)\b',
+    "picor": r'\b(picor|picor|pican|pica|picado)\b',
     "rigidez": r'\b(rigidez|rigideces|rígido|duro)\b',
     "calor": r'\b(calor|calores)\b',
     "frío": r'\b(frío|fríos)\b',
     "fiebre": r'\b(fiebre|fiebres)\b',
     "tos": r'\b(tos|toses|tosido|tosidos)\b',
-    "moco": r'\b(moco|mocos|moquea|moqueas)\b',
-    "vómito": r'\b(vómito|vómitos|vomita|vomitan)\b',
+    "moco": r'\b(moco|mocos|moquea|moqueas|moqueado)\b',
+    "vómito": r'\b(vómito|vómitos|vomita|vomitan|vomitado)\b',
     "mareado": r'\b(mareado|mareada|mareados|mareadas|mareo)\b',
     # Puedes añadir más patrones según tus necesidades
 }
@@ -49,7 +49,8 @@ patrones_respuesta = {
     "nunca" : r'\b(nunca)\b',
     "a veces" : r'\b(a veces)\b',
     "mucho" : r'\b(mucho)\b',
-    "poco" : r'\b(poco)\b'
+    "poco" : r'\b(poco)\b',
+    "nada" : r'\b(nada)\b'
 }
 
 # Función para detectar la zona del cuerpo en una pregunta
