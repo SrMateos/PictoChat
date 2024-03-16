@@ -1,0 +1,678 @@
+[
+    {
+        "id": "8fe4a323-b84d-49a4-829a-079bd1361748",
+        "pregunta": [
+            "\u00bfTe duele el pecho?"
+        ],
+        "respuestas": [
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "11aa0db1-5840-4c44-8d8e-07002662fde9",
+        "pregunta": [
+            "\u00bfTe duele el pecho?"
+        ],
+        "respuestas": [
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "2f1afe6d-6c46-4049-b4b7-8259499a94b5",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "87291fca-be73-4f9e-a4cc-73c88bce8cd6",
+        "pregunta": [
+            "\u00bfTe duele el pecho?"
+        ],
+        "respuestas": [
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "97593fed-583b-49bd-8b75-d65054234135",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "17f4b56a-12ce-49fd-8da8-1b0dbe662501",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "cb12b52f-3d83-4618-946e-033001be5793",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "877444f8-c635-4e86-85c7-36a603726a17",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "4164e9bb-4577-497b-b114-a818a6614973",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "b50a693d-8f96-473d-b1de-f16b49a87238",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "c2687950-9bae-42dd-9686-8be154afae5f",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "a2094de3-b5cc-4d9e-9b44-1c2a203f7d2a",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "03be7326-2f7d-4963-bbe3-a8c383219da0",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "3185227d-391e-4e41-9ed1-d582e569a651",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "5390fbc9-7868-440d-9be1-818bf2649d86",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "ff899ae5-d96f-43d1-9f0d-68a36caeed1f",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "8d621449-1f50-451c-a66a-7b74a3d89d85",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "697c2798-c80e-4925-82d9-1c134fcf8d79",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "977e2399-d407-4463-a6e7-7b7ee27e5923",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "5a7c617a-6fdb-4e5c-9171-9a087474c227",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "ef131601-20e4-4f17-b9a8-fb5d6beaea94",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "67ffcfb1-7895-422e-b591-df31be32f3da",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "bdaec6f2-063f-47e3-bfd1-4c08bf508266",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "2ea4fee3-fd3f-4e75-8606-c7dfa374b0ed",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "a98a24e9-b264-4d59-afc9-a1fc542cab78",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "ef4eb43a-dcb3-4b6e-ba08-261befe03f1a",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "5c770b25-d302-4799-a5ce-a41cfb8cafe2",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "08203389-2d7c-4457-ac04-22a494131803",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "59662664-daf0-4607-8d69-d0c6d4a400d9",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "14dfab54-b53f-41ba-9c22-2127937ede49",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "3913e16b-a5fe-41a2-9e36-8bdd3da66ffa",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "d69cd8b2-63f4-44d1-b351-ca13ffb98b44",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "b6b10685-0729-4de7-bc40-f08ec30bced0",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "66642a3f-191d-4896-abba-eefb66d1920e",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": true
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "0e2e412c-f461-421c-b16e-afd6dadbc961",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "dec3936f-5df2-407a-806c-ebcbb3334bc2",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "4b086467-04db-4048-8b2b-8c5b820217b2",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "666de5a0-c716-4bca-b9e6-f20ccc1955bc",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "7b738893-2af6-467f-b0d0-9f8d8e34c32d",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": false
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "8ab2e07d-910a-494e-b887-074ecc654f45",
+        "pregunta": [
+            "te duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Si",
+                "elegida": true
+            }
+        ]
+    },
+    {
+        "id": "35fd1fbe-ad18-4162-9014-306a73f754af",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "Me duele el pecho",
+                "elegida": true
+            },
+            {
+                "texto": "Me duele la cabeza",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "020c52d1-f0e3-4ce7-ab2a-49ad0901af9a",
+        "pregunta": [
+            "\u00bfQu\u00e9 te duele?"
+        ],
+        "respuestas": [
+            {
+                "texto": "La cabeza",
+                "elegida": false
+            },
+            {
+                "texto": "El codo",
+                "elegida": true
+            }
+        ]
+    },
+    {
+        "id": "04395135-c870-4154-b4aa-008a20c36757",
+        "pregunta": [
+            "\u00bfTe duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "S\u00ed, mucho",
+                "elegida": false
+            },
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "eadf062b-81db-4c04-b78e-f2d114e50a98",
+        "pregunta": [
+            "\u00bfTe duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "S\u00ed, mucho",
+                "elegida": false
+            },
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "0f952d67-8d52-420c-9b32-7b11f7bc283e",
+        "pregunta": [
+            "\u00bfTe duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "S\u00ed",
+                "elegida": false
+            },
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    },
+    {
+        "id": "0278fa4d-8c18-4814-a98d-d6013d1b2da0",
+        "pregunta": [
+            "\u00bfTe duele la cabeza?"
+        ],
+        "respuestas": [
+            {
+                "texto": "S\u00ed",
+                "elegida": false
+            },
+            {
+                "texto": "No",
+                "elegida": true
+            }
+        ]
+    },
+    {
+        "id": "3bfcb5c6-5bc0-45fc-b605-609d7e80c8c1",
+        "pregunta": [
+            "Te duele la cabeza"
+        ],
+        "respuestas": [
+            {
+                "texto": "S\u00ed",
+                "elegida": true
+            },
+            {
+                "texto": "No",
+                "elegida": false
+            }
+        ]
+    }
+]

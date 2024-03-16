@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/output.css" rel="stylesheet">
+    <title>Preguntas</title>
+</head>
+<body class="bg-yellow-50">
+    <h1 class="text-4xl text-center font-bold mt-5">Pregunta</h1>
+    
+    <!-- Aquí puedes usar la URL de la imagen -->
+    <div class="flex justify-center border-2 border-amber-200 rounded-xl p-5 m-5 bg-yellow-100">
+    {% for url in imagenes_pregunta %}
+        <img src="{{ url }}" alt="Pregunta" class="mx-auto d-block" width="200px" height="200px">
+    {% endfor %}
+    </div>
+
+    <h1 class="text-4xl text-center font-bold">Respuestas</h1>
+    {% for url in matriz_respuestas %}
+    <div class="flex flex-col text-center w-screen">
+        <form action="/guardar_respuestas" method="post">
+            <button type="submit">
+            <p class="text-2xl text-center font-bold">Respuesta {{ loop.index }}:</p>
+            <input type="hidden" name="idx" value="{{ loop.index }}">
+            <div class="flex justify-center border-2 border-amber-200 rounded-xl p-5 m-5 bg-pink-100 hover:bg-pink-200">
+            {% for url in url %}
+                <img src="{{ url }}" alt="Respuesta" class="mx-auto d-block" width="200px" height="200px">
+            {% endfor %}
+            </div>
+        </form>
+    </div>
+    {% endfor %}
+
+</body>
+</html>

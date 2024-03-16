@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/output.css" rel="stylesheet">
+    <title>PictoChat</title>
+    <script>
+        // Función para agregar más campos de respuestas si aún no hay 4
+        function agregarCampo() {
+            // Encuentra el div donde se agregarán los nuevos campos
+            var contenedor = document.getElementById("contenedor");
+
+            // Obtiene la cantidad actual de campos de respuesta
+            var camposRespuesta = contenedor.querySelectorAll('input[name^="respuesta"]').length;
+
+            // Si hay menos de 4 campos de respuesta, agrega uno nuevo
+            if (camposRespuesta < 4) {
+                contenedor.innerHTML += '<label for="respuesta" class="text-2xl m-4">Respuesta:</label>' +
+                                        '<input type="text" name="respuesta[]" class="border-2 border-gray-500 p-2 rounded-full" required>';
+            }
+        }
+
+        // Función para eliminar el último campo de respuesta
+        function eliminarCampo() {
+            // Encuentra el div que contiene los campos de respuesta
+            var contenedor = document.getElementById("contenedor");
+
+            // Obtiene la cantidad actual de campos de respuesta
+            var camposRespuesta = contenedor.querySelectorAll('input[name^="respuesta"]').length;
+
+            // Si hay más de 1 campo de respuesta, elimina el último
+            if (camposRespuesta > 1) {
+                contenedor.removeChild(contenedor.lastChild);
+                contenedor.removeChild(contenedor.lastChild);
+            }
+        }
+    </script>
+</head>
+<body class="bg-yellow-50">
+    <h1 class="text-4xl text-center m-6 font-bold">PictoChat</h1>
+    <form action="/procesar" method="post" class="flex flex-col flex-wrap">
+        <div class="flex flex-col items-center">
+            <!-- Botón para agregar más campos -->
+            <button type="button" onclick="agregarCampo()" class="bg-purple-300 hover:bg-purple-500 font-bold w-1/2 h-16 m-2 rounded-full">Agregar respuesta</button>
+
+            <!-- Botón para eliminar el último campo -->
+            <button type="button" onclick="eliminarCampo()" class="bg-indigo-400 hover:bg-indigo-500 font-bold w-1/2 h-16 m-2 rounded-full">Eliminar respuesta</button>
+
+            <button type="submit" class="bg-teal-300 hover:bg-teal-500 font-bold w-1/2 h-16 m-2 rounded-full">Enviar</button>
+            <div class="flex flex-col w-1/2" id="contenedor">
+                <!-- Campos iniciales de pregunta y respuesta -->
+                <label for="pregunta" class="text-2xl m-4">Pregunta:</label>
+                <input type="text" name="pregunta[]" class="border-2 border-gray-500 p-2 rounded-full" required>
+                <label for="respuesta" class="text-2xl m-4">Respuesta:</label>
+                <input type="text" name="respuesta[]" class="border-2 border-gray-500 p-2 rounded-full" required>
+            </div>
+        </div>
+    </form>
+    <form action="/generar_informe" method="post" class="flex flex-col">
+        <div class="flex flex-col items-center">
+            <button type="submit" class="bg-orange-200 hover:bg-orange-300 font-bold w-1/2 h-16 m-2 rounded-full">Generar informe</button>
+        </div>
+    </form>
+</body>
+</html>
+

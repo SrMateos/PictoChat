@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../static/output.css" rel="stylesheet">
+    <title>Resumen</title>
+</head>
+<body class="flex flex-col items-center justify-center h-screen bg-gray-100">
+    <div class="w-full max-w-md px-6 py-8 bg-white rounded-lg shadow-md">
+        <h1 class="text-2xl text-center font-bold text-gray-800 mb-6">Resumen de respuestas</h1>
+        <ul class="list-disc list-inside space-y-2">
+            {% for pregunta_respuesta in preguntas_con_respuesta %}
+                <li class="flex justify-between items-center">
+                    <span class="font-semibold">{{ pregunta_respuesta.pregunta }}:</span>
+                    <span class="text-gray-600">{{ pregunta_respuesta.respuesta_elegida }}</span>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
